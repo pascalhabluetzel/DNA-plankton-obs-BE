@@ -1,8 +1,8 @@
 #!/bin/bash
 
-QUERY_FILE="/data/gent/vo/001/gvo00125/vsc44164/EMOBON/MAGs_2025/results/20250219/330/all/final.contigs.fa"
-DB_NAME="/data/gent/vo/001/gvo00125/vsc44164/EMOBON/MAGs_2025/data/PR2/pr2_version_5.0.0_SSU_taxo_long.fasta"
-OUTPUT_FILE="/data/gent/vo/001/gvo00125/vsc44164/EMOBON/MAGs_2025/results/20250219/blast_results_all.csv"
+QUERY_FILE="$VSC_DATA_VO_USER/EMOBON/MAGs_2025/results/20250219/330/all/final.contigs.fa"
+DB_NAME="$VSC_DATA_VO_USER/EMOBON/MAGs_2025/data/PR2/pr2_version_5.0.0_SSU_taxo_long.fasta"
+OUTPUT_FILE="$VSC_DATA_VO_USER/EMOBON/MAGs_2025/results/20250219/blast_results_all.csv"
 EVALUE="1e-5"
 MAX_HITS=1  # Only report the top hit
 THREADS=32
